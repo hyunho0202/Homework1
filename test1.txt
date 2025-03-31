@@ -1,0 +1,9 @@
+<git add & commit 실습순서>
+1. 깃허브에서 레파지스토리 생성
+2. 깃배쉬에서 cd c: -> cd git -> git clone "사이트명" -> git "레파지스토리폴더 이름"
+3. git config --global user.name / user.email(동기 맞추기)
+4. touch "파일명.c/txt"(폴더 안 파일생성) -> git status
+5. 파일 작성후 저장
+6. git add "파일명.c/txt" (폴더 및 한글파일/모든파일은 git add . 로 추가)
+7. git commit -m "New c file" -> git push -u orign main -> git push
+
