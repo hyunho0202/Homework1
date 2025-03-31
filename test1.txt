@@ -1,22 +1,24 @@
 <git add & commit 실습순서>
 1. 깃허브에서 레파지스토리 생성
 2. 깃배쉬에서 cd c: -> cd git -> git clone "사이트명" -> git "레파지스토리폴더 이름"
-3. git config --global user.name / user.email(동기 맞추기)
+3. git config --global user.name / user.email(동기 맞추기, PC1 최초1회)
 4. touch "파일명.c/txt"(폴더 안 파일생성) -> git status
 5. 파일 작성후 저장
 6. git add "파일명.c/txt" (폴더 및 한글파일/모든파일은 git add . 로 추가) -> git status
 7. git commit -m "New c file" -> git push -u orign main -> git push
+8. 깃허브 레파지스토리 main에서 확인
 (번외 : 파일 수정 및 추가해보기)
 
 
 <git branch 실습순서>
 1. 깃허브에서 레파지스토리 세팅에서 친구추가
 2. PC2는 똑같이 레파지스토리폴더 들어가기
-3. git branch grocery -> git switch grocery(main->grocery 변경)
-3. git config --global user.name / user.email(동기 맞추기)
-4. git pull(파일 가져오기 이때, 동기는 이미 적용됨)
+3. git branch grocery -> git switch grocery(main->grocery 변경) 혹은 git branch -c
+3. git config --global user.name / user.email(동기 맞추기, PC2 최초1회)
+4. git pull 혹은 git pull origin grocery(파일 가져오기)
 5. 파일 수정후 저장
 6. git add "파일명.c/txt" (폴더 및 한글파일/모든파일은 git add . 로 추가) -> git status
-7. git commit -m "New c file" -> git push -u orign main -> git push
+7. git commit -m "New c file" -> git push -u origin grocery -> git push
+8. 깃허브 레파지스토리 grocery에서 확인
 
-아니 수정
+
