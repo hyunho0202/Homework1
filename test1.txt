@@ -7,3 +7,13 @@
 6. git add "파일명.c/txt" (폴더 및 한글파일/모든파일은 git add . 로 추가) -> git status
 7. git commit -m "New c file" -> git push -u orign main -> git push
 (번외 : 파일 수정 및 추가해보기)
+
+
+<git branch 실습순서>
+1. 깃허브에서 레파지스토리 세팅에서 친구추가
+2. PC2는 똑같이 레파지스토리폴더 들어가기
+3. git branch grocery -> git switch grocery(main->grocery 변경)
+4. git pull(파일 가져오기 이때, 동기는 이미 적용됨)
+5. 파일 수정후 저장
+6. git add "파일명.c/txt" (폴더 및 한글파일/모든파일은 git add . 로 추가) -> git status
+7. git commit -m "New c file" -> git push -u orign main -> git push
